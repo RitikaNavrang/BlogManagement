@@ -6,6 +6,7 @@ import backgroundImage from './simpleimage.jpg';
 import Link from '@mui/material/Link';
 
 const Login = () => {
+  var i =0;
   const [email, setEmail] = useState(''); 
   const [password, setPassword] = useState('');
   const [error, setError] = useState(null);
